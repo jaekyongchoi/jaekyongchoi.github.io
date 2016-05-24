@@ -35,8 +35,8 @@
 					 
 				// EDIT THE 2 LINES BELOW AS REQUIRED
 				 
-				$email_to = "j94choi@uwaterloo.ca";
-				$email_subject = "email from jaechoi.me";
+				$email_to = "jae@jaechoi.xyz";
+				$email_subject = "email from jaechoi.xyz";
 				 
 				   
 				$first_name = $_POST['first_name']; // required 
@@ -68,7 +68,7 @@
 				 
 				'X-Mailer: PHP/' . phpversion();
 				 
-				@mail($email_to, $email_subject, $email_message, $headers); 
+				mail($email_to, $email_subject, $email_message, $headers); 
 				 
 				?>
 				 
