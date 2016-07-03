@@ -304,12 +304,11 @@ hr {
 .intro {
 	width:100%;
 	position:relative;
-	
 	background: url(../img/bg1.jpg) no-repeat top center;
 }
 
 #intro.intro {
-	padding:20% 0 0 0;
+	padding:15% 0 0 0;
 }
 
 .intro .slogan {
@@ -585,7 +584,6 @@ Parallax
 .btn-circle {
     width: 70px;
     height: 70px;
-    margin-top: 15px;
     padding: 7px 16px;
     border: 2px solid #fff;
     border-radius: 50%;
@@ -595,6 +593,14 @@ Parallax
     -webkit-transition: background .3s ease-in-out;
     -moz-transition: background .3s ease-in-out;
     transition: background .3s ease-in-out;
+}
+
+.top-circle{
+  margin-top: 250px;
+}
+
+.bottom-circle{
+  margin-top: 15px;
 }
 
 .btn-circle.btn-dark {
